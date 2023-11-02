@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Coding Challenge 6-1</title>
+   <link href="css_folder/style_table.css" rel="stylesheet"/>
+   <link href="css_folder/style_layout.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+   <header>
+      <h1>Cherry Mae's Week Schedule</h1>
+   </header>
+   
+   <table>
+      <caption>This is my week schedule!</caption>
+
+      <colgroup>
+         <col id="firstCol"/>
+         <col id="hourCols" span="9"/>
+      </colgroup>
+
+      <thead>
+         <tr>
+            <th>Time</th>
+            <th colspan="2">Monday</th>
+            <th colspan="2">Tuesday</th>
+            <th colspan="2">Wednesday</th>
+            <th colspan="2">Thursday</th>
+            <th colspan="2">Friday</th>
+            <th colspan="2">Saturday</th>
+            <th colspan="2">Sunday</th>
+         </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+            <th class="time">6:00 AM</th>
+            <td colspan="2" rowspan="2">Sleep</td>
+            <td colspan="2" rowspan="6">Center for Living Independently</td>
+            <td colspan="2" rowspan="5">Center for Living Independently</td>
+            <td colspan="8" rowspan="2">Sleep</td>
+         </tr>
+         <tr>
+            <th class="time">7:00 AM</th>
+         <!-- Nothing here to add-->
+         </tr>
+         <tr>
+            <th class="time">10:00 AM</th>
+            <td colspan="2" rowspan="3">Prepare for NMC</td>
+            <td colspan="2">Prepare for NMC</td>
+            <td colspan="2" rowspan="3">Prepare for NMC</td>
+            <td colspan="4">Breakfast</td>
+         </tr> 
+         <tr>
+            <th class="time">12:00 PM</th>
+            <td colspan="2" rowspan="3">NMC</td>
+            <td colspan="4" rowspan="4">Study / Drawing</td>
+         </tr>         
+         <tr>
+            <th class="time">1:00 PM</th>
+         <!-- Nothing here to add-->
+         </tr>  
+         <tr>
+            <th class="time">2:00 PM</th>
+            <td colspan="2">NMC</td>
+            <td colspan="2">NMC</td>
+            <td colspan="2">NMC</td>
+         </tr>  
+         <tr>
+            <th class="time">5:00 PM</th>
+            <td colspan="10">Go Home</td>
+         </tr>  
+         <tr>
+            <th class="time">6:00 PM</th>
+            <td colspan="14">Rest</td>
+         </tr>
+         <tr>
+            <th class="time">7:00 PM</th>
+            <td colspan="14">Eat Dinner</td>
+         </tr>  
+         <tr>
+            <th class="time">8:00 PM</th>
+            <td colspan="14">Study</td>
+         </tr>  
+         <tr>
+            <th class="time">10:00 PM</th>
+            <td colspan="14">Sleep</td>
+         </tr>  
+      </tbody>
+
+<tfoot>
+   <th class="Weekly_Schedule" colspan="15">Weekly Schedule</th>
+</tfoot>
+
+   </table>
+
+</body>
+
+</html>
